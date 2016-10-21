@@ -7,7 +7,7 @@ import CreateForm from './container/CreateForm.js';
 import ShowSurveyList from './container/ShowSurveyList.js';
 import TakeSurvey from './container/TakeSurvey.js';
 import ViewAnswers from './container/ViewAnswers.js';
-
+// import Home from './container/Home.js';
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route path='/' component={App}>
